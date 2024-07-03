@@ -10,7 +10,6 @@ html{
 }
 
 body{
-  /* margin: 0; */
   padding: 0;
   margin: auto;
   width: 70vw;
@@ -64,7 +63,6 @@ align-self: flex-start;
 img{
   width: 100%;
   height: auto;
-  /* border-radius: 1rem; */
 }
 
 figcaption {
@@ -82,7 +80,6 @@ figcaption {
   margin: 0;
   padding: 0;
   gap: 1rem;
-  /* background-color: #a96666; */
 }
 
 .row{
@@ -131,14 +128,22 @@ footer{
     width: 100%;
   }
   .row {
-    align-items: center;
-    flex-wrap: wrap;
-    display: flex;
+   flex-direction: column;
+   align-items: center;
   }
 
   .column{
     align-items: center;
     flex-wrap: wrap;
     display: flex;
+  }
+
+  figure {
+    width: 100%;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
   }
 }
