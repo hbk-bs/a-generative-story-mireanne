@@ -37,9 +37,9 @@ h1{
 }
 
 h2{
-  text-align: left;
-  font-size: 2rem;
-  color: #ac0000;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #000000;
   align-self: flex-start;
 }
 
@@ -108,6 +108,11 @@ figure{
 .one-one {
   flex: 1 1 0;
   aspect-ratio: 1 /1;
+}
+
+.sixteen-nine {
+  flex: 16 9 0;
+  aspect-ratio: 16 /9;
 }
 
 footer{
